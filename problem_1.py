@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# EDVALDO PAU FERRO DA SILVA JUNIOR
 # UAG00098
 # Problem Set 2 - Problem 1
 # Description:
@@ -36,8 +36,14 @@ Valores aceitos.
 
 
 def main():
-    pass  # your code here
-
-
+ A = int(input('Digite o valor A: '))
+ B = int(input('Digite o valor B: '))
+ C = int(input('Digite o valor C: '))
+ D = int(input('Digite o valor D: '))
+  
+ if B > C and D > A and (C + D) > (A + B) and C > 0 and D > 0 and A % 2 == 0:
+    print("Valores aceitos.")
+ else:
+    print("Valores recusados.")
 if __name__ == '__main__':
     main()
